@@ -10,10 +10,15 @@ environ['SDL_VIDEO_WINDOW_POS'] = '%d,25'%cen
 screen=display.set_mode((800,600))
 display.set_caption('Food Ninja')
 display.set_icon(image.load('logo.jpg'))
+running=True
+while running:
+  mb=mouse.get_pressed()
+  mx,my=mouse.get_pos()
+  draw.rect(screen,(0,255,255),(200,200,400,400),20)
 
 
 
 
 #---Displaying---#
-display.flip()
+  display.flip()
 
