@@ -1,2 +1,2 @@
-# Food-Ninja-
+# Food-Ninja
 BCH-Food Ninja 
